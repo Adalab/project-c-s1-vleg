@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+  /*text-align: justify;*/
+}
+
+header {
+  background-color: #63585E;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.logo-menu {
+  float: left;
+}
+
+/*MENU*/
+.menu {
+  margin-right: 50px;
+  float: right;
+}
+ul,ol {
+  list-style: none;
+}
+.menu-superior>li {
+  display: inline-block;
+}
+.menu-superior li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 12px;
+  display: block;
+}
+.menu-superior li a:hover {
+  background-color: #434343;
+}
+.menu-superior li ul {
+  display: none;
+  position: absolute;
+  padding: 0;
+}
+.menu-superior li:hover>ul {
+  display: block;
+}
+.menu-superior li ul li {
+  position: relative;
+}
+.menu-miembros li {
+  background-color: #63585E;
+  /*background-color:#434343;*/
+}
+
+/*FOTO PORRTADA*/
+.portada {
+  margin-bottom: 40px;
+  display: block;
+}
+
+/*MAIN*/
+.section {
+  position: relative;
+  display: block;
+  width: 1140px;
+  margin: 0 auto 60px;
+}
+
+.separacion-div{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.members h2{
+	text-align: center;
+}
+.icono {
+  position: relative;
+  display: inline;
+  margin-right: 50px;
+  border-right: 2px solid #d3d3d3;
+  margin-bottom: 60px;
+  padding: 0 40px;
+  float: left;
+  height: 200px;
+  width: 232px;
+  box-sizing: border-box;
+}
+.texto {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 850px;
+  height: 200px;
+  padding: 50px 0;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+}
+.texto p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.photo-and-icons {
+  position: relative;
+  display: inline;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  padding: 0;
+  float: left;
+  height: 200px;
+  max-width: 216px;
+  box-sizing: border-box;
+}
+.rss-icons {
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.paragraphs {
+	position: relative;
+    display: inline;
+    float: left;
+    max-width: 850px;
+    height: 200px;
+    /* padding: 50px 0; */
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+.separador{
+	width: 70px;
+  margin: 11px 0;
+  border: 1px solid black;
+}
+.role{
+	margin-top:15px;
+}
+.role-paragraph {
+	display: inline-block;
+	width:79%;
+}
+.role-photo {
+	display: inline-block;
+	width: 20%;
+}
+
+/*CONTACTO*/
+.contacto h2, .contacto p, .contacto {
+	text-align: center;
+}
+
+/*FOOTER*/
+.row-footer{
+	background-color: #63585E;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	color: white;
+}
+.row-footer p{
+text-align: center;
+}
+
+.footer-izquierda ,.footer-centro , .footer-derecha {
+  width: 33%;
+	height: 100%;
+}
+.footer-izquierda {
+	float: left;
+}
+.footer-centro {
+	float: left;
+}
+.footer-derecha {
+	float: right;
+}
