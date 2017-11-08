@@ -5,7 +5,8 @@
 }
 
 header {
-  background-color: #63585E;
+  background-color: #7C9FA2;
+	/*#63585E;*/
   padding: 10px;
   width: 100%;
   position: fixed;
@@ -25,6 +26,7 @@ ul,ol {
 }
 .menu-superior>li {
   display: inline-block;
+	font-weight: bold;
 }
 .menu-superior li a {
   color: #fff;
@@ -33,7 +35,8 @@ ul,ol {
   display: block;
 }
 .menu-superior li a:hover {
-  background-color: #434343;
+  background-color:#719194;
+	/*#434343;*/
 }
 .menu-superior li ul {
   display: none;
@@ -47,14 +50,11 @@ ul,ol {
   position: relative;
 }
 .menu-miembros li {
-  background-color: #63585E;
+	background-color: #7C9FA2;
+  /*background-color: #63585E;*/
   /*background-color:#434343;*/
 }
 
-/*.portada {
-  margin-bottom: 40px;
-  display: block;
-}*/
 
 .section{
 	margin-top: 60px;
@@ -65,16 +65,23 @@ ul,ol {
 	padding: 0 15%;
 }
 .inside{
-	border:1px solid red;
+	/*border:1px solid red*/
+	background-color: #F8FCFC;
+	/*#C7D9D7*/
 }
 
 .icono {
-    border-right: 2px solid #d3d3d3;
+    border-right: 2px solid #7C9FA2;
     width: 25%;
     float: left;
     margin-right: 50px;
     text-align: center;
     margin-top: 18px;
+}
+
+.icono img{
+	height: 90px;
+	width: 90px;
 }
 
 .texto{
@@ -144,7 +151,8 @@ ul,ol {
 
 footer{
 	margin-top: 60px;
-	background-color: #63585E;
+	background-color: #1A1B1E;
+	/*#63585E;*/
 	color: white;
 	width:100%;
 	height: 80px;
