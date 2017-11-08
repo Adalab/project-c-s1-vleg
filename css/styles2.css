@@ -1,7 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: arial, sans-serif;
+  /*font-family: arial, sans-serif;*/
+}
+p, ul, li{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -21,7 +28,7 @@ header {
   margin-right: 50px;
   float: right;
 }
-ul,ol {
+.menu ul, .menu ol {
   list-style: none;
 }
 .menu-superior>li {
@@ -51,106 +58,205 @@ ul,ol {
 }
 .menu-miembros li {
 	background-color: #7C9FA2;
-  /*background-color: #63585E;*/
-  /*background-color:#434343;*/
 }
 
-
+/*GENERAL*/
 .section{
 	margin-top: 60px;
 }
 
-/*AYUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
-.section-2{
-	padding: 0 15%;
-}
-.inside{
-	/*border:1px solid red*/
-	background-color: #F8FCFC;
-	/*#C7D9D7*/
+/*BLOQUE DESCRIPCION*/
+.descripcion {
+    margin: 0 auto;
+    text-align: center;
 }
 
+.max-width85{
+	max-width: 85%;
+	margin: 0 auto;
+}
+.block-1{
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.block-2{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.block-3{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.span-1{
+	font: bold;
+	text-decoration: underline;
+	font-style: italic;
+}
+.block-4{
+	clear: both;
+	margin-top: 20px;
+	font-size: 18px;
+	padding: 0 90px;
+	max-width: 70%;
+}
+.descripcion ul{
+	text-align: left;
+}
+
+.lista-1{
+	float:right;
+	width: 45%;
+}
+
+.lista-2{
+	width: 48%;
+}
+
+.li-1, .li-2{
+	padding: 10px 0;
+}
+
+.block-5{
+	clear: both;
+	margin-top: 50px;
+	font-size: 60px;
+	font-weight: bold;
+	background: #b0bebf; /*prueba de fondo!!!!!!!!!*/
+	color: white;
+	padding: 20px 0;
+}
+
+#adalabers{
+	font-family: 'Caveat Brush', cursive;
+}
+
+
+/*FORTALEZAS Y DEBILIDADES*/
+.section-2{
+	padding: 0 25%;
+}
+.inside{
+	background-color: #F8FCFC;
+}
+.forta-debil {
+  margin: 0 60px;
+}
 .icono {
     border-right: 2px solid #7C9FA2;
-    width: 25%;
+    width: 30%;
     float: left;
     margin-right: 50px;
     text-align: center;
-    margin-top: 18px;
+    margin-top: 25px;
 }
-
 .icono img{
 	height: 90px;
 	width: 90px;
 }
-
 .texto{
 	padding: 60px 20px;
 }
-
 .icono h3{
 	text-align: center;
+	font-size: 24px;
 }
 
+
+/*BLOQUE MIEMBROS*/
 .photo-and-icons{
     width: 25%;
     float: left;
     text-align: center;
+		padding: 30px;
 }
 .separador {
-    width: 50px;
-    border: 1px solid black;
-		margin: 5px 0;
+    width: 40%;
+    border-top: 1px solid black;
+		margin: 4px 0;
 }
 .paragraphs{
-	margin-right: 100px;
-	padding: 15px;
+	margin-right: 90px;
+	/*padding: 15px;*/
 }
 
+.paragraphs h3{
+	font-size: 27px;
+}
 .role{
 	margin-top:20px;
 }
+.role h4{
+	font-size: 23px;
+}
+
+.role img{
+	width: 35px;
+	height: auto;
+	padding-right:15px;
+}
+
 .role-photo{
 	padding: 0 50px;
 	float:right;
 }
-
+.role-photo img{
+	width: 50px;
+	height: auto;
+}
 .miembro{
 	clear: both;
-	padding-top: 50px;
+	padding-top: 65px;
 }
-
 .members-title{
 	margin:50px 0;
 }
-
 .members-title h2{
 	text-align: center;
-	font-size: 40px;
+	font-size: 57px;
 }
 .rss-icons{
 	display: inline-block;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	padding-top:20px;
 }
 
+
+/*BLOQUE CONTACTO*/
+.contacto{
+	clear: both;
+	text-align: center;
+	background-image: url("../img/fondo.png");
+	margin-top: 30px;
+}
+
+.filtro {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 20px;
+		padding: 100px 0;
+	}
 
 .contacto h2{
 	text-align: center;
-		font-size: 40px;
-		margin-bottom:20px;
+		font-size: 57px;
+		margin-bottom: 15px;
 }
 
-.contacto p, .contacto{
+.email-contacto{
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*.contacto p,{
 	text-align: center;
-}
+}*/
 
 
-
-
+/*FOOTER*/
 footer{
-	margin-top: 60px;
+
 	background-color: #1A1B1E;
 	/*#63585E;*/
 	color: white;
@@ -158,32 +264,31 @@ footer{
 	height: 80px;
 	clear:both;
 }
-.row-footer p{
+.row-footer img, .row-footer p, .row-footer a{
+padding:14px;
 text-align: center;
+color: white;
+text-decoration: none;
 }
-
-/*.footer-izquierda , .footer-centro , .footer-derecha {
-  /*width: 33%;
-	height: 100%;
-
-}*/
 .footer-izquierda {
 	width: 30%;
 	float: left;
 	 margin:0;
 	 text-align: left;
-	 }
-
+}
  .footer-centro {
  	width: 30%;
  	margin:0;
  	text-align: center;
  	float: left;
  }
-
 .footer-derecha {
 	width: 30%;
 	margin:0;
 	text-align: center;
 	float: right;
+}
+.logo-footer{
+	width: 90px;
+	height: 35px;
 }
