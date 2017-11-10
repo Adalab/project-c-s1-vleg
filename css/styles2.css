@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 header {
-  background-color: #7C9FA2;
+  background-color: #27B9C5;
 	/*#63585E;*/
   padding: 10px;
   width: 100%;
@@ -140,7 +140,7 @@ header {
 	margin-top: 50px;
 	font-size: 60px;
 	font-weight: bold;
-	background: #b0bebf; /*prueba de fondo!!!!!!!!!*/
+	background: #bcbdbd; /*prueba de fondo!!!!!!!!!*/
 	color: white;
 	padding: 20px 0;
 }
@@ -191,10 +191,11 @@ header {
 .separador {
     width: 40%;
     border-top: 1px solid black;
-		margin: 4px 0;
+		margin: 7px 0 15px 0;
 }
 .paragraphs{
 	margin-right: 90px;
+	line-height: 25px;
 	/*padding: 15px;*/
 }
 
@@ -241,6 +242,11 @@ header {
 	padding-top:20px;
 }
 
+.hobbies{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 20px;
+}
+
 
 /*BLOQUE CONTACTO*/
 .contacto{
@@ -276,7 +282,7 @@ header {
 footer{
 	position: relative;
 	bottom: 0;
-	background-color: #1A1B1E;
+	background-color: #404646;
 	/*#63585E;*/
 	color: white;
 	width:100%;
@@ -295,7 +301,7 @@ text-decoration: none;
 	float: left;
 	 margin:0;
 	 text-align: left;
-	 padding: 22px 0 22px 30px;
+	 padding: 22px 0 17px 30px;
 }
  .footer-centro {
 	 position: relative;
