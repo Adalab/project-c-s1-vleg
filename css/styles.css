@@ -188,6 +188,17 @@ header {
     text-align: center;
 		padding: 30px;
 }
+
+.photo-member{
+    width: 222px;
+    heigh: auto;
+
+}
+
+
+
+
+
 .separador {
     width: 40%;
     border-top: 1px solid black;
