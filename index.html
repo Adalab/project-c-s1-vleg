@@ -6,7 +6,8 @@
   <title>Equipo VLEG</title>
   <link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Source+Sans+Pro:300,400,600,900" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,31 +18,31 @@
 	    <!--INCLUIR LOGO-->
 	    <nav class="menu">
 	      <!--MENU SUPERIOR  -->
-	      <ul class="menu-superior">
-	        <li><a href="#equipo">Equipo</a></li>
+	      <ul class="top-menu">
+	        <li><a href="#team">Equipo</a></li>
 	        <li><a href="#" class="sub-menu">Miembros</a>
-	          <ul class="menu-miembros">
-	            <li><a href="#eva">Eva</a></li>
+	          <ul class="menu-members">
+	            <li><a href="#member-section">Eva</a></li>
 	            <li><a href="#gloria">Gloria</a></li>
 	            <li><a href="#laura">Laura</a></li>
 	            <li><a href="#virginia">Ma. Virginia</a></li>
 	          </ul>
 	        </li>
-	        <li><a href="#contacto">Contacto</a></li>
+	        <li><a href="#contact">Contacto</a></li>
 	      </ul>
 	    </nav>
 	  </header>
 
 	  <main>
 	    <!-- seccion contenido principal -->
-			<div class="portada" id="equipo">
+			<div class="cover" id="team">
 				<!-- <img src="img/portada.jpg" alt="" class="portada"> -->
 			<!-- Imagen principal/portada-->
 			</div>
 
 			<!--DESCRIPCIÓN DE EQUIPO -->
 	    <section class="section section-1">
-	      <div class="descripcion">
+	      <div class="description">
 	        <div class="block-1 max-width85">
 	        	<p>Somos un equipo de mujeres jóvenes que buscan convertirse en profesionales líderes del mundo digital.</p>
 					</div>
@@ -55,12 +56,12 @@
 					</div>
 
 					<div class="block-4 max-width85">
-						<ul class="lista-1">
+						<ul class="list-1">
 							<li class="li-1">Tener el súper-poder de saber programar.</li>
 							<li class="li-1">Luchar contra la barrera de género en el sector TIC</li>
 							<li class="li-1">Combatir los estereotipos.</li>
 						</ul>
-						<ul class="lista-2">
+						<ul class="list-2">
 							<li class="li-2">Demostrar nuestro talento</li>
 							<li class="li-2"> Formar parte de una gran comunidad.</li>
 							<li class="li-2">Transformar nuestras vidas y escribir nuestro futuro en líneas de código.</li>
@@ -77,12 +78,12 @@
 	    <section class="section section-2">
 				<div class="inside">
 				 <div class="forta-debil">
-	      	<div class="icono">
+	      	<div class="icon">
 	        	<img src="img/fortalezas.png" alt="imagen-fortaleza">
 	        	<h3>Fortalezas</h3>
 	      	</div>
-	        <div class="texto">
-	          <ul>
+	        <div class="text">
+	          <ul class="list-3">
 							<li>Equipo multidisciplinar</li>
 							<li>Altas dosis de motivación</li>
 	          	<li>Constancia</li>
@@ -90,12 +91,12 @@
 	        </div>
 	    	 	</div>
 					<div class="forta-debil">
-	        	<div class="icono">
+	        	<div class="icon">
 	          	<img src="img/debilidades.png" alt="imagen-debilidades">
 	          	<h3>Debilidades</h3>
 	        	</div>
-	        	<div class="texto">
-							<ul>
+	        	<div class="text">
+							<ul class="list-4">
 								<li>Falta de experiencia como equipo</li>
 								<li>Conocimientos en formación</li>
 								<li>Primer contacto con el sector</li>
@@ -107,13 +108,135 @@
 
 			<!--MIEMBROS VLEG -->
 			<section class="section section-3">
-				<div class="members-title">
+				<div class="members-title" id="member-section">
 					<h2>MIEMBROS DE VLEG</h2>
 				</div>
 			</section>
 
-			<section class="prueba">
-				<div class="miembro" id="eva">
+			<!--PRUEBA BLOQUE FLEX CON FONDO -->
+
+			<section class="flex-container">
+				<div class="left-member" id="eva">
+					<img src="img/eva-circular.png" alt="Eva Llorca" class="photo-member">
+					<p><a href="https://twitter.com/FUKAI_ESTUDIO"><img src="img/twitter.png"></a>
+					<a href="https://www.linkedin.com/in/eva-llorca-ballester-45a6b9125/"><img src="img/linkedin.png"></a>
+					<a href=""><img src="img/github.png"></a></p>
+				</div>
+
+			<!-- EVA -->
+				<div class="right-member">
+					<h3>Eva Llorca</h3>
+					<hr class="line-break">
+					<div class="bio">
+						<p>Historiadora del Arte y Fotógrafa de profesión. </p>
+						<span class="hobbies">Llevo adelante Fukai Estudio, una escuela de fotografía donde mezclo mis pasiones, la fotografía y la docencia.</span> <br>
+
+						<p>Me fascina  la programación, ese lenguaje indescifrable... Espero disfrutar de este camino con Adalab y empezar a chapurrear pronto este nuevo idioma.</p>
+					</div>
+					<div class="role">
+						<h4><img src="img/planificacion.png" alt="role image">Planificación y seguimiento</h4>
+						<hr class="line-break">
+						<div class="role-paragraph">
+							<p>Responsable de organizar y supervisar las tareas, tanto de equipo como individuales. Marcar objetivos y hacer un seguimiento para que se cumplan en tiempo y forma. </p> <div id="gloria"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- GLORIA -->
+			<section class="flex-container">
+				<div class="left-member" >
+					<img src="img/eva-circular.png" alt="Gloria Fernandez" class="photo-member">
+						<p><a href="https://twitter.com/FUKAI_ESTUDIO"><img src="img/twitter.png"></a>
+						<a href="https://www.linkedin.com/in/eva-llorca-ballester-45a6b9125/"><img src="img/linkedin.png"></a>
+						<a href=""><img src="img/github.png"></a></p>
+				</div>
+
+				<div class="right-member">
+					<h3>Gloria Fernández</h3>
+					<hr class="line-break">
+						<div class="bio">
+							<p>Química.</p>
+							<span class="hobbies">Oyente de podcast y seguidora de canales de YouTube family friendly.</span><br>
+							<p>Mi experiencia profesional ha estado siempre ligada al mundo de la investigación científica siempre en busca de nuevos retos y desafíos. Cuando me hablaron del programa Adalab, lo vi claro, era mi oportunidad de aportar mi conocimiento y reinventarme. Así que: Here we go Adalab!</p>
+						</div>
+						<div class="role">
+							<h4><img src="img/aprendizaje.png" alt="role image">Aprendizaje</h4>
+								<hr class="line-break">
+							<div class="role-paragraph">
+								<p>Encargada de valorar los objetivos de aprendizaje de cada miembro del equipo y proponer espacios y metodología de aprendizaje conjunto.</p><div id="laura"></div>
+						  </div>
+						</div>
+					</div>
+				</section>
+
+				<!-- LAURA -->
+				<section class="flex-container">
+					<div class="left-member">
+						<img src="img/eva-circular.png" alt="Laura Navarro" class="photo-member">
+							<p><a href="https://twitter.com/FUKAI_ESTUDIO"><img src="img/twitter.png"></a>
+							<a href="https://www.linkedin.com/in/eva-llorca-ballester-45a6b9125/"><img src="img/linkedin.png"></a>
+							<a href=""><img src="img/github.png"></a></p>
+					</div>
+
+					<div class="right-member">
+						<h3>Laura Navarro</h3>
+						<hr class="line-break">
+							<div class="bio">
+								<p>Ingeniera química.</p>
+									<span class="hobbies">Alicantina y cat lover.</span><br>
+									<p>He pipeteado en laboratorios y gestionado residuos desde el sector público.
+
+								La propuesta del programa integral de Adalab no me puede parecer más atractiva. Primer contacto con la programación para diseñar reactores que no explotaran usando bucles if y for. Ahora, atenta a que mi código no le complique el día a personas con diversidad funcional, entre otros. Porque la vida son ciclos y los bucles, ciclos son, esta etapa es una apasionante iteración mejorada.</p>
+							</div>
+							<div class="role">
+								<h4><img src="img/comunicacion.png" alt="role image">Comunicación y eventos</h4>
+								<hr class="line-break">
+								<div class="role-paragraph">
+									<p>Responsable de compartir los logros del equipo e información de interés en RRSS y otros canales, así como de seleccionar los mejores eventos para mantenerse up-to-date en el sector.</p><div id="virginia"></div>
+							  </div>
+							</div>
+						</div>
+					</section>
+
+					<!-- VIRGINIA -->
+					<section class="flex-container">
+						<div class="left-member" id="virginia">
+							<img src="img/eva-circular.png" alt="Maria Virginia Rivas" class="photo-member">
+								<p><a href="https://twitter.com/FUKAI_ESTUDIO"><img src="img/twitter.png"></a>
+								<a href="https://www.linkedin.com/in/eva-llorca-ballester-45a6b9125/"><img src="img/linkedin.png"></a>
+								<a href=""><img src="img/github.png"></a></p>
+						</div>
+
+						<div class="right-member">
+							<h3>Ma. Virginia Rivas</h3>
+							<hr class="line-break">
+								<div class="bio">
+									<p>Periodista.</p>
+										<span class="hobbies">Friki de las películas de terror y binger sin vergüenza.</span><br>
+										<p>Trayectoria profesional en el mundo de la comunicación y el marketing digital
+										Estoy en Adalab porque ¡me encantan los retos! y estoy decidida a hacerme un huequecito dentro del complejo mundo de la programación y a disfrutar cada minuto de este viaje</p>
+								</div>
+								<div class="role">
+									<h4><img src="img/teambuilding.png" alt="role image">Team building</h4>
+									<hr class="line-break">
+									<div class="role-paragraph">
+										<div class="role-photo">
+											<!-- <img src="img/teambuilding.png" alt="role image"> -->
+										</div>
+										<p>Encargada de promover la ayuda y colaboración entre todas las integrantes del equipo y propiciar que la comunicación entre todas sea fluida y directa.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+
+
+
+
+
+			<!-- <section class="prueba"> -->
+				<!-- <div class="miembro" >
 					<div class="photo-and-icons">
 						<img src="img/eva-circular.png" alt="Eva Llorca" class="photo-member">
 						<div class="rss-icons">
@@ -125,7 +248,7 @@
 				</div>
 				<div class="paragraphs">
 					<h3>Eva Llorca</h3>
-					<hr class="separador">
+					<hr class="line-break">
 					<div class="bio">
 						<p>Historiadora del Arte y Fotógrafa de profesión. </p>
 						<span class="hobbies">Llevo adelante Fukai Estudio, una escuela de fotografía donde se mezclan mis pasiones, la fotografía y la docencia.</span> <br>
@@ -134,16 +257,15 @@
 					</div>
 					<div class="role">
 						<h4><img src="img/planificacion.png" alt="role image">Planificación y seguimiento</h4>
-						<hr class="separador">
+						<hr class="line-break">
 						<div class="role-paragraph">
 							<div class="role-photo">
-							<!-- <img src="img/planificacion.png" alt="role image"> -->
-							</div>
+
 							<p>Responsable de organizar y supervisar las tareas, tanto de equipo como individuales. Marcar objetivos y hacer un seguimiento para que se cumplan en tiempo y forma. </p>
 						</div>
 					</div>
-	    	</div>
-				<div class="miembro" id="gloria">
+	    	</div> -->
+				<!-- <div class="miembro" id="gloria">
 					<div class="photo-and-icons">
 						<img src="http://via.placeholder.com/200x200" alt="">
 						<div class="rss-icons">
@@ -155,7 +277,7 @@
 				</div>
 				<div class="paragraphs">
 					<h3>Gloria Fernández</h3>
-					<hr class="separador">
+					<hr class="line-break">
 					<div class="bio">
 						<p>Química.</p>
 					<span class="hobbies">Oyente de podcast y seguidora de canales de YouTube family friendly.</span><br>
@@ -164,11 +286,10 @@
 					</div>
 					<div class="role">
 						<h4><img src="img/aprendizaje.png" alt="role image">Aprendizaje</h4>
-						<hr class="separador">
+						<hr class="line-break">
 						<div class="role-paragraph">
 							<div class="role-photo">
-							<!-- <img src="img/aprendizaje.png" alt="role image"> -->
-							</div>
+
 							<p>Encargada de valorar los objetivos de aprendizaje de cada miembro del equipo y proponer espacios y metodología de aprendizaje conjunto.</p>
 						</div>
 					</div>
@@ -182,10 +303,11 @@
 								<a href=""><img src="img/github.png"></a>
 							</div>
 						</div>
-					</div>
-					<div class="paragraphs">
+					</div> -->
+
+					<!-- <div class="paragraphs">
 						<h3>Laura Navarro</h3>
-						<hr class="separador">
+						<hr class="line-break">
 						<div class="bio">
 							<p>Ingeniera química.</p>
 								<span class="hobbies">Alicantina y cat lover.</span><br>
@@ -195,16 +317,14 @@
 						</div>
 						<div class="role">
 							<h4><img src="img/comunicacion.png" alt="role image">Comunicación y eventos</h4>
-							<hr class="separador">
+							<hr class="line-break">
 							<div class="role-paragraph">
-								<div class="role-photo">
-									<!-- <img src="img/comunicacion.png" alt="role image"> -->
-								</div>
+
 								<p>Responsable de compartir los logros del equipo e información de interés en RRSS y otros canales, así como de seleccionar los mejores eventos para mantenerse up-to-date en el sector.</p>
 								</div>
 							</div>
-						</div>
-						<div class="miembro" id="virginia">
+						</div> -->
+						<!-- <div class="miembro" id="virginia">
 							<div class="photo-and-icons">
 								<img src="http://via.placeholder.com/200x200" alt="">
 								<div class="rss-icons">
@@ -216,7 +336,7 @@
 						</div>
 						<div class="paragraphs">
 							<h3>Ma. Virginia Rivas</h3>
-							<hr class="separador">
+							<hr class="line-break">
 							<div class="bio">
 								<p>Periodista.</p>
 									<span class="hobbies">Friki de las películas de terror y binger sin vergüenza.</span><br>
@@ -225,26 +345,27 @@
 							</div>
 							<div class="role">
 								<h4><img src="img/teambuilding.png" alt="role image">Team building</h4>
-								<hr class="separador">
+								<hr class="line-break">
 								<div class="role-paragraph">
 									<div class="role-photo">
-										<!-- <img src="img/teambuilding.png" alt="role image"> -->
-									</div>
+
 									<p>Encargada de promover la ayuda y colaboración entre todas las integrantes del equipo y propiciar que la comunicación entre todas sea fluida y directa.</p>
 								</div>
 							</div>
 						</div>
-			</section>
+			</section> -->
+
+
 	    <section class="section">
-	      <div class="contacto" id="contacto">
-					<div class="filtro">
+	      <div class="contact" id="contact">
+					<div class="filter">
 
 
 		        <img src="" alt="">
 		        <h2>¿HABLAMOS?</h2>
 		        <p>Escríbenos un correo para cualquier consulta, sugerencia y/o propuesta que tengas.<br>¡Estaremos encantadas de conocerte!</p>
 
-					<a href="mailto:hello@vleg.com" class="email-contacto"> hello@vleg.com</a>
+					<a href="mailto:hello@vleg.com" class="email-contact"> <span class="font-contact">hello@vleg.com</span></a>
 			</div>
 
 	      </div>
@@ -253,12 +374,12 @@
 
 	  <footer>
 			<div class="row-footer">
-				<div class="footer-izquierda">
-					<a href="http://adalab.es" target="_blank"><img src="img/logo-adalab.png" alt="imagen logo" class="logo-footer"></a>
+				<div class="footer-left">
+					<a href="http://adalab.es" target="_blank"><img src="img/logo-adalab.png" alt="logo Adalab" class="logo-footer"></a>
 				</div>
-				<div class="footer-centro"> <p>&copy; 2017 Equipo VLEG</p>
+				<div class="footer-center"> <p>&copy; 2017 Equipo VLEG</p>
 				</div>
-				<div class="footer-derecha"> <p><a href="mailto:hello@vleg.com">hello@vleg.com</a></p>
+				<div class="footer-right"> <p><a href="mailto:hello@vleg.com">hello@vleg.com</a></p>
 				</div>
 			</div>
 		</footer>

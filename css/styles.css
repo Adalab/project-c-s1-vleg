@@ -35,32 +35,32 @@ header {
 .menu ul, .menu ol {
   list-style: none;
 }
-.menu-superior>li {
+.top-menu>li {
   display: inline-block;
 	font-weight: bold;
 }
-.menu-superior li a {
+.top-menu li a {
   color: #fff;
   text-decoration: none;
   padding: 12px 12px;
   display: block;
 }
-.menu-superior li a:hover {
+.top-menu li a:hover {
   background-color:#719194;
 	/*#434343;*/
 }
-.menu-superior li ul {
+.top-menu li ul {
   display: none;
   position: absolute;
   padding: 0;
 }
-.menu-superior li:hover>ul {
+.top-menu li:hover>ul {
   display: block;
 }
-.menu-superior li ul li {
+.top-menu li ul li {
   position: relative;
 }
-.menu-miembros li {
+.menu-members li {
 	background-color: #7C9FA2;
 }
 
@@ -70,8 +70,7 @@ header {
 }
 
 /*PORTADA*/
-
-.portada{
+.cover{
 	position: relative;
 	/*margin-top: 70px;*/
 	margin-bottom: 40px;
@@ -80,15 +79,13 @@ header {
 	background-image: url("../img/portada.jpg");
 	background-size: cover;
 	background-position: right left;
-
 }
 
-/*BLOQUE DESCRIPCION*/
-.descripcion {
+/*BLOQUE description*/
+.description {
     margin: 0 auto;
     text-align: center;
 }
-
 .max-width85{
 	max-width: 85%;
 	margin: 0 auto;
@@ -118,16 +115,24 @@ header {
 	padding: 0 90px;
 	max-width: 70%;
 }
-.descripcion ul{
+.description ul{
 	text-align: left;
+	list-style-type: none;
 }
 
-.lista-1{
+.list-1 li:before, .list-2 li:before {
+    content: "\f046"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #27B9C5;
+    font-family: "fontawesome";
+}
+
+.list-1{
 	float:right;
 	width: 45%;
 }
 
-.lista-2{
+.list-2{
 	width: 48%;
 }
 
@@ -140,7 +145,7 @@ header {
 	margin-top: 50px;
 	font-size: 60px;
 	font-weight: bold;
-	background: #bcbdbd; /*prueba de fondo!!!!!!!!!*/
+	background: #bcbdbd;
 	color: white;
 	padding: 20px 0;
 }
@@ -155,12 +160,15 @@ header {
 	padding: 0 25%;
 }
 .inside{
-	background-color: #F8FCFC;
+	background-color: #E2EBF2;
+	/*F5F8FA;*/
+	/*e1e8ed*/
+	/*#F8FCFC;*/
 }
 .forta-debil {
   margin: 0 60px;
 }
-.icono {
+.icon {
     border-right: 2px solid #7C9FA2;
     width: 30%;
     float: left;
@@ -168,38 +176,93 @@ header {
     text-align: center;
     margin-top: 25px;
 }
-.icono img{
+.icon img{
 	height: 90px;
 	width: 90px;
 }
-.texto{
+.text{
 	padding: 60px 20px;
 }
-.icono h3{
+.icon h3{
 	text-align: center;
 	font-size: 24px;
 }
+.text ul{
+	/*text-align: left;*/
+	list-style-type: none;
+}
+
+.list-3, .list-4{
+	font-size:18px;
+}
+
+.list-3 li:before{
+    content: "\f0fe"; /* Insert content that looks like bullets */
+    padding-right: 10px;
+    color: #27B9C5;
+    font-family: "fontawesome";
+		}
+
+.list-4 li:before{
+    content: "\f146"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #27B9C5;
+    font-family: "fontawesome";
+}
 
 
-/*BLOQUE MIEMBROS*/
+/*BLOQUE MIEMBROS PRUEBAAAAAAA*/
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	background: #E2EBF2;
+	padding: 60px 0;
+}
+
+.right-member, .left-member{
+	margin: 0 30px;
+	background: white;
+	line-height: 30px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 4px;
+}
+.left-member{
+	padding: 20px;
+	width: 15%;
+	text-align: center;
+}
+.left-member img{
+	display: inline-block;
+}
+.left-member p {
+	text-align: center;
+	margin-top: 20px;
+}
+.right-member{
+	padding: 15px;
+	width: 70%;
+}
+.right-member h3{
+	font-size: 27px;
+}
 .photo-and-icons{
     width: 25%;
     float: left;
     text-align: center;
 		padding: 30px;
 }
-
 .photo-member{
-    width: 222px;
+    width: 95%;
     heigh: auto;
-
+		filter: grayscale(100%);
+		transition: 0.5s;
 }
-
-
-
-
-
-.separador {
+.photo-member:hover {
+	filter: grayscale(0%);
+		transition: 0.5s;
+}
+.line-break {
     width: 40%;
     border-top: 1px solid black;
 		margin: 7px 0 15px 0;
@@ -209,35 +272,29 @@ header {
 	line-height: 25px;
 	/*padding: 15px;*/
 }
-
-.paragraphs h3{
-	font-size: 27px;
-}
 .role{
 	margin-top:20px;
 }
 .role h4{
-	font-size: 23px;
+	font-size: 25px;
 }
-
 .role img{
 	width: 35px;
 	height: auto;
 	padding-right:15px;
 }
-
-.role-photo{
+/*.role-photo{
 	padding: 0 50px;
 	float:right;
-}
-.role-photo img{
+}*/
+/*.role-photo img{
 	width: 50px;
 	height: auto;
 }
 .miembro{
 	clear: both;
 	padding-top: 65px;
-}
+}*/
 .members-title{
 	margin:50px 0;
 }
@@ -252,41 +309,38 @@ header {
 	text-align: center;
 	padding-top:20px;
 }
-
 .hobbies{
 	font-family: 'Caveat Brush', cursive;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 
 /*BLOQUE CONTACTO*/
-.contacto{
+.contact{
 	clear: both;
 	text-align: center;
 	background-image: url("../img/fondo.png");
 	margin-top: 30px;
 }
-
-.filtro {
+.filter {
     background-color: rgba(255, 255, 255, 0.9);
     padding-bottom: 20px;
 		padding: 100px 0;
-	}
-
-.contacto h2{
+}
+.contact h2{
 	text-align: center;
 		font-size: 57px;
 		margin-bottom: 15px;
 }
-
-.email-contacto{
+.email-contact{
 	color:black;
 	text-decoration: none;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
-/*.contacto p,{
-	text-align: center;
-}*/
+.font-contact{
+		font-family: 'Caveat Brush', cursive;
+		font-size: 40px;
+}
 
 
 /*FOOTER*/
@@ -300,13 +354,7 @@ footer{
 	height: 80px;
 	clear:both;
 }
-/*.row-footer img, .row-footer p, .row-footer a{
-padding:14px;
-text-align: center;
-color: white;
-text-decoration: none;
-}*/
-.footer-izquierda {
+.footer-left {
 	display: inline-block;
 	width: 30%;
 	float: left;
@@ -314,7 +362,7 @@ text-decoration: none;
 	 text-align: left;
 	 padding: 22px 0 17px 30px;
 }
- .footer-centro {
+ .footer-center {
 	 position: relative;
 	 display: inline-block;
  	width: 30%;
@@ -324,9 +372,8 @@ text-decoration: none;
 	line-height: 80px;
 	margin: 0 auto;
 	box-sizing: border;
- }
-
-.footer-derecha {
+}
+.footer-right {
 	position: relative;
 	display: inline-block;
 	width: 30%;
@@ -343,13 +390,11 @@ text-decoration: none;
 	height: auto;
 	display: inline-block;
 }
-
-.footer-derecha a{
+.footer-right a{
 	text-decoration: none;
 	color: white;
 }
-
-.footer-izquierda a{
+.footer-left a{
 	position: relative;
 	height: auto;
 }
