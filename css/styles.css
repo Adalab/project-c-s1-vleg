@@ -28,6 +28,7 @@ header {
 }
 .logo-menu {
   float: left;
+	margin-left: 14px;
 }
 
 /*MENU*/
@@ -430,7 +431,8 @@ color:#393e3e;
 	}
 	.logo-menu {
     float: left;
-    width: 40px;
+    width: 12%;
+    margin-left: 10px;
 	}
 	.menu {
     float: right;
