@@ -301,7 +301,7 @@ color:#393e3e;
 		transition: 0.5s;
 }
 .photo-member:hover {
-	filter: grayscale(0%);
+		filter: grayscale(0%);
 		transition: 0.5s;
 }
 
