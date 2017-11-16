@@ -6,6 +6,11 @@
   /*font-family: arial, sans-serif;*/
 }
 
+/*WINDOWS PHONE VIEWPORT*/
+@-ms-viewport{
+   width: device-width;
+}
+
 p, ul, li{
 	font-family: 'Roboto', sans-serif;
 }
@@ -16,8 +21,7 @@ h1, h2, h3, h4, h5, h6{
 
 header {
   background-color: #27B9C5;
-	/*#63585E;*/
-  padding: 10px;
+	padding: 10px;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -414,9 +418,6 @@ color:#393e3e;
   color: white;
 }
 
-@-ms-viewport{
-   width: device-width;
-}
 
 /*VERSION MOVIL*/
 @media all and (max-width: 480px){
