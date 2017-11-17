@@ -58,7 +58,7 @@ header {
   position: absolute;
   padding: 0;
 }
-.top-menu li:hover>ul {
+.top-menu li a:hover + ul {
   display: block;
 }
 .top-menu li ul li {
@@ -544,6 +544,11 @@ color:#393e3e;
     padding: 15px;
     width: 100%;
 }
+.photo-member{
+    width: 100%;
+    height: auto;
+		filter: grayscale(0%);
+}
 .line-break {
     width: 100%;
     border-top: 1px solid #56b9c5;
@@ -652,13 +657,11 @@ color:#393e3e;
     margin-bottom: 25px;
 		justify-content: center;
 	}
-	.photo-member {
-    width: 85%;
-    height: auto;
-    filter: grayscale(100%);
-    transition: 0.1S;
+	.photo-member{
+	    width: 85%;
+	    height: auto;
+			filter: grayscale(0%);
 	}
-
 	.left-member a>img {
 	    width: 32px;
 	    padding: 0 10px;
