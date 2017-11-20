@@ -540,6 +540,16 @@ color:#393e3e;
     width: 32px;
     padding: 0 10px;
 }
+.photo-member {
+	width: 85%;
+	height: auto;
+	filter: grayscale(0);
+}
+
+.photo-member:hover {
+		filter: grayscale(0);
+	}
+
 .right-member {
     padding: 15px;
     width: 100%;
@@ -655,8 +665,11 @@ color:#393e3e;
 	.photo-member {
     width: 85%;
     height: auto;
-    filter: grayscale(100%);
-    transition: 0.1S;
+    filter: grayscale(0);
+	}
+
+	.photo-member:hover {
+			filter: grayscale(0);
 	}
 
 	.left-member a>img {
