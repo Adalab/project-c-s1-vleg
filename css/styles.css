@@ -21,8 +21,7 @@ h1, h2, h3, h4, h5, h6{
 
 header {
   background-color: #27B9C5;
-	padding: 10px;
-  width: 100%;
+	width: 100%;
   position: fixed;
   z-index: 1;
 }
@@ -36,13 +35,13 @@ header {
   margin-right: 50px;
   float: right;
 }
-.menu ul {
+.top-menu li{
   list-style: none;
   font-size: 20px;
 }
 .top-menu>li {
   display: inline-block;
-	/*font-weight: bold;*/
+
 }
 .top-menu li a {
   color: #fff;
@@ -443,10 +442,11 @@ color:#393e3e;
     font-size: 17px;
 	}
 	.top-menu li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 12px;
-    display: block;
+		color: #fff;
+		text-decoration: none;
+		padding: 12px;
+		display: block;
+		font-size: 17px;
 	}
 	.block-1 {
     font-size: 21px;
